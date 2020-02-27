@@ -6,7 +6,7 @@ use gio::prelude::*;
 use std::env;
 
 
-fn show_input(cfg: Config){
+pub fn show_input(cfg: Config){
     let uiapp = gtk::Application::new(Some("org.gtkrsnotes.demo"),
                                       gio::ApplicationFlags::FLAGS_NONE)
         .expect("Application::new failed");

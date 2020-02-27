@@ -4,9 +4,8 @@ use config::Config;
 
 mod gui;
 
-
 fn main() {
     let cfg = Config::load();
 
-
+    gui::show_input(cfg);
 }

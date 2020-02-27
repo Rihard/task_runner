@@ -4,8 +4,6 @@ version = "0.1.0"
 authors = ["Rihard"]
 edition = "2018"
 
-#![windows_subsystem = "windows"]
-
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
@@ -14,8 +12,3 @@ gio = "0.8.1"
 gdk = "0.12.1"
 serde_json = "1.0"
 serde = { version = "1.0.104", features = ["derive"] }
-
-winapi = "*"
-user32-sys = "*"
-kernel32-sys = "*"
-https://github.com/Rihard/task_runner.git
