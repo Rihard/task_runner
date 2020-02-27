@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "name": "Audio Injector",
+      "trigger":{
+        "StartWith": "CONVERT VIDEO"
+      },
+      "app_url": "VideoInjector.exe",
+      "parameters_mode": "PlainText"
+    }
+  ]
+}
